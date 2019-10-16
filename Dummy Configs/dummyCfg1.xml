@@ -1,0 +1,10 @@
+<Config>
+	<Database>
+		<ConnectionString>abcde</ConnectionString>
+	</Database>
+	<Queries>
+		<Query1>Select * FROM You</Query1>
+		<Query2>Select * FROM Him</Query2>
+		<Query3>Select * FROM Them</Query3>
+	</Queries>
+</Config>
