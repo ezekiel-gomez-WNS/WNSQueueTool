@@ -39,6 +39,7 @@ Public Class Config
             Next
             Return mQueries
         End Get
+        'sample utfyfuvyuhvyt
     End Property
 
 End Class
