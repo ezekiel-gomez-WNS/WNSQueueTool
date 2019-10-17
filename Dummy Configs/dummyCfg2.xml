@@ -1,11 +1,11 @@
 <Config>
 	<Database deadlockretrycount='5'>
-		<ConnectionString>abcde</ConnectionString>
+		<ConnectionString>Server=localhost\SQLEXPRESS;Database=msdb;Trusted_Connection=True;</ConnectionString>
 	</Database>
 	<Queries>
 		<Query0>
-			Select *
-			FROM You
+			Select * 
+			FROM UnitTest_QueueDatabase1
 		</Query0>
 		<Query1>
 			Select * 

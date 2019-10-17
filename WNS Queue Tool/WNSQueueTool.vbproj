@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{E27533AD-7ADE-44A3-9C9E-661485F3C755}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>WNS_Queue_Tool</RootNamespace>
+    <RootNamespace>WNSQueueTool</RootNamespace>
     <AssemblyName>WNS Queue Tool</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>Windows</MyType>

@@ -1,10 +1,10 @@
 ﻿Imports System.Xml
 Public Class Config
-    Dim mPath As String
-    Dim mXmlDoc As Xml.XmlDocument
-    Dim mDatabaseTag As XmlElement
-    Dim mQueriesTag As XmlElement
-    Dim mQueries As String()
+    Private mPath As String
+    Private mXmlDoc As Xml.XmlDocument
+    Private mDatabaseTag As XmlElement
+    Private mQueriesTag As XmlElement
+    Private mQueries As String()
 
     Public Sub New(filepath As String)
         mPath = filepath
@@ -25,7 +25,11 @@ Public Class Config
             Return mDatabaseTag.Item("ConnectionString").InnerText
         End Get
     End Property
-
+    Public ReadOnly Property DeadLockRetryCount As Long
+        Get
+            Return mDatabaseTag.Attributes("deadlockretrycount").Value
+        End Get
+    End Property
     Public ReadOnly Property Queries As String()
         Get
             Dim i As Long

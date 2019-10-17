@@ -12,9 +12,9 @@ C:\Users\ezekiel.gomez\Documents\GitHub\WNSQueueTool\WNS Queue Tool\bin\Debug\WN
 C:\Users\ezekiel.gomez\Documents\GitHub\WNSQueueTool\WNS Queue Tool\bin\Debug\WNS Queue Tool.pdb
 C:\Users\ezekiel.gomez\Documents\GitHub\WNSQueueTool\WNS Queue Tool\bin\Debug\WNS Queue Tool.xml
 C:\Users\ezekiel.gomez\Documents\GitHub\WNSQueueTool\WNS Queue Tool\obj\Debug\WNSQueueTool.vbprojAssemblyReference.cache
-C:\Users\ezekiel.gomez\Documents\GitHub\WNSQueueTool\WNS Queue Tool\obj\Debug\WNS_Queue_Tool.Resources.resources
 C:\Users\ezekiel.gomez\Documents\GitHub\WNSQueueTool\WNS Queue Tool\obj\Debug\WNSQueueTool.vbproj.GenerateResource.cache
 C:\Users\ezekiel.gomez\Documents\GitHub\WNSQueueTool\WNS Queue Tool\obj\Debug\WNSQueueTool.vbproj.CoreCompileInputs.cache
 C:\Users\ezekiel.gomez\Documents\GitHub\WNSQueueTool\WNS Queue Tool\obj\Debug\WNS Queue Tool.dll
 C:\Users\ezekiel.gomez\Documents\GitHub\WNSQueueTool\WNS Queue Tool\obj\Debug\WNS Queue Tool.xml
 C:\Users\ezekiel.gomez\Documents\GitHub\WNSQueueTool\WNS Queue Tool\obj\Debug\WNS Queue Tool.pdb
+C:\Users\ezekiel.gomez\Documents\GitHub\WNSQueueTool\WNS Queue Tool\obj\Debug\WNSQueueTool.Resources.resources

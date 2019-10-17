@@ -1,10 +1,10 @@
 ﻿Imports System.Text
 Imports Microsoft.VisualStudio.TestTools.UnitTesting
-Imports WNS_Queue_Tool
+Imports WNSQueueTool
 
 <TestClass()> Public Class UnitTest_Config
-    Dim SUT As WNS_Queue_Tool.Config
-    Dim mPath As String = "C:\Users\ezekiel.gomez\source\repos\WNS Queue Tool\Dummy Configs\dummyCfg1.xml"
+    Dim SUT As WNSQueueTool.Config
+    Dim mPath As String = "C:\Users\ezekiel.gomez\Documents\GitHub\WNSQueueTool\Dummy Configs\dummyCfg1.xml"
 
     Public Sub New()
 
@@ -18,6 +18,7 @@ Imports WNS_Queue_Tool
     <TestMethod()> Public Sub Database_GetDatabaseInfo()
         SUT = New Config(mPath)
         Assert.AreEqual("abcde", SUT.ConnectionString)
+        Assert.IsTrue(SUT.DeadLockRetryCount = 5)
         SUT = Nothing
     End Sub
     <TestMethod()> Public Sub Queries_CountIs3()
