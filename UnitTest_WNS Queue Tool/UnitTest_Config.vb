@@ -41,6 +41,7 @@ Imports WNSQueueTool
         Assert.AreEqual("Select * FROM Them", SUT.Queries(2))
         SUT = Nothing
     End Sub
+
     Protected Overrides Sub Finalize()
 
         MyBase.Finalize()
