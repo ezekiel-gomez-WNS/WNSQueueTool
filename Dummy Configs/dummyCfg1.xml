@@ -4,16 +4,13 @@
 	</Database>
 	<Queries>
 		<Query0>
-			Select *
-			FROM You
+			Select * FROM You
 		</Query0>
 		<Query1>
-			Select * 
-			FROM Him
+			Select * FROM Him
 		</Query1>
 		<Query2>
-			Select *
-			FROM Them
+			Select * FROM Them
 		</Query2>
 	</Queries>
 </Config>

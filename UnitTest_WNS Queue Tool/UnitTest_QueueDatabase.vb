@@ -5,9 +5,10 @@ Imports WNSQueueTool
 <TestClass()> Public Class UnitTest_QueueDatabase
     Private SUT As QueueDatabase
     Private mConfig As Config
-    Private mCfgPath As String = "C:\Users\ezekiel.gomez\Documents\GitHub\WNSQueueTool\Dummy Configs\dummyCfg2.xml"
+    Private mCfgPath As String = "C:\Users\[username]\Documents\GitHub\WNSQueueTool\Dummy Configs\dummyCfg2.xml"
 
     Public Sub New()
+        mCfgPath = mCfgPath.Replace("[username]", Environment.UserName)
         mConfig = New Config(mCfgPath)
         SUT = New QueueDatabase(mConfig.ConnectionString, mConfig.DeadLockRetryCount)
     End Sub

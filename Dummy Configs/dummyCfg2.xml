@@ -1,19 +1,16 @@
 <Config>
 	<Database deadlockretrycount='5'>
-		<ConnectionString>Server=localhost\SQLEXPRESS;Database=msdb;Trusted_Connection=True;</ConnectionString>
+		<ConnectionString>Server=PSEA-DEV-WS11\SQLEXPRESS;Database=msdb;Trusted_Connection=True;</ConnectionString>
 	</Database>
 	<Queries>
 		<Query0>
-			Select * 
-			FROM UnitTest_QueueDatabase1
+			Select * FROM UnitTest_QueueDatabase1
 		</Query0>
 		<Query1>
-			Select * 
-			FROM Him
+			Select * FROM Him
 		</Query1>
 		<Query2>
-			Select *
-			FROM Them
+			Select * FROM Them
 		</Query2>
 	</Queries>
 </Config>

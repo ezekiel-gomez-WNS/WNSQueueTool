@@ -35,7 +35,7 @@ Public Class Config
             Dim i As Long
             ReDim mQueries(mQueriesTag.ChildNodes.Count - 1)
             For i = 0 To mQueries.Count - 1
-                mQueries(i) = mQueriesTag.ChildNodes(i).InnerText
+                mQueries(i) = mQueriesTag.ChildNodes(i).InnerText.Trim
             Next
             Return mQueries
         End Get

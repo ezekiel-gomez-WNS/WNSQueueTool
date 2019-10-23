@@ -92,6 +92,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="UnitTest1.vb" />
+    <Compile Include="UnitTest_GenericHelpers.vb" />
     <Compile Include="UnitTest_Config.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">

@@ -4,10 +4,10 @@ Imports WNSQueueTool
 
 <TestClass()> Public Class UnitTest_Config
     Dim SUT As WNSQueueTool.Config
-    Dim mPath As String = "C:\Users\ezekiel.gomez\Documents\GitHub\WNSQueueTool\Dummy Configs\dummyCfg1.xml"
+    Dim mPath As String = "C:\Users\[username]\Documents\GitHub\WNSQueueTool\Dummy Configs\dummyCfg1.xml"
 
     Public Sub New()
-
+        mPath = mPath.Replace("[username]", Environment.UserName)
     End Sub
 
     <TestMethod()> Public Sub PropertyPath_StoredCorrectly()

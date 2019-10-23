@@ -18,3 +18,22 @@ C:\Users\ezekiel.gomez\Documents\GitHub\WNSQueueTool\WNS Queue Tool\obj\Debug\WN
 C:\Users\ezekiel.gomez\Documents\GitHub\WNSQueueTool\WNS Queue Tool\obj\Debug\WNS Queue Tool.xml
 C:\Users\ezekiel.gomez\Documents\GitHub\WNSQueueTool\WNS Queue Tool\obj\Debug\WNS Queue Tool.pdb
 C:\Users\ezekiel.gomez\Documents\GitHub\WNSQueueTool\WNS Queue Tool\obj\Debug\WNSQueueTool.Resources.resources
+C:\Users\rpa.astrolin\Documents\GitHub\WNSQueueTool\WNS Queue Tool\bin\Debug\WNS Queue Tool.dll
+C:\Users\rpa.astrolin\Documents\GitHub\WNSQueueTool\WNS Queue Tool\bin\Debug\WNS Queue Tool.pdb
+C:\Users\rpa.astrolin\Documents\GitHub\WNSQueueTool\WNS Queue Tool\bin\Debug\WNS Queue Tool.xml
+C:\Users\rpa.astrolin\Documents\GitHub\WNSQueueTool\WNS Queue Tool\bin\Debug\Google.Apis.Core.dll
+C:\Users\rpa.astrolin\Documents\GitHub\WNSQueueTool\WNS Queue Tool\bin\Debug\Google.Apis.dll
+C:\Users\rpa.astrolin\Documents\GitHub\WNSQueueTool\WNS Queue Tool\bin\Debug\Google.Apis.PlatformServices.dll
+C:\Users\rpa.astrolin\Documents\GitHub\WNSQueueTool\WNS Queue Tool\bin\Debug\Newtonsoft.Json.dll
+C:\Users\rpa.astrolin\Documents\GitHub\WNSQueueTool\WNS Queue Tool\bin\Debug\Google.Apis.pdb
+C:\Users\rpa.astrolin\Documents\GitHub\WNSQueueTool\WNS Queue Tool\bin\Debug\Google.Apis.xml
+C:\Users\rpa.astrolin\Documents\GitHub\WNSQueueTool\WNS Queue Tool\bin\Debug\Google.Apis.Core.pdb
+C:\Users\rpa.astrolin\Documents\GitHub\WNSQueueTool\WNS Queue Tool\bin\Debug\Google.Apis.Core.xml
+C:\Users\rpa.astrolin\Documents\GitHub\WNSQueueTool\WNS Queue Tool\bin\Debug\Newtonsoft.Json.xml
+C:\Users\rpa.astrolin\Documents\GitHub\WNSQueueTool\WNS Queue Tool\obj\Debug\WNSQueueTool.vbprojAssemblyReference.cache
+C:\Users\rpa.astrolin\Documents\GitHub\WNSQueueTool\WNS Queue Tool\obj\Debug\WNSQueueTool.Resources.resources
+C:\Users\rpa.astrolin\Documents\GitHub\WNSQueueTool\WNS Queue Tool\obj\Debug\WNSQueueTool.vbproj.GenerateResource.cache
+C:\Users\rpa.astrolin\Documents\GitHub\WNSQueueTool\WNS Queue Tool\obj\Debug\WNSQueueTool.vbproj.CopyComplete
+C:\Users\rpa.astrolin\Documents\GitHub\WNSQueueTool\WNS Queue Tool\obj\Debug\WNS Queue Tool.dll
+C:\Users\rpa.astrolin\Documents\GitHub\WNSQueueTool\WNS Queue Tool\obj\Debug\WNS Queue Tool.xml
+C:\Users\rpa.astrolin\Documents\GitHub\WNSQueueTool\WNS Queue Tool\obj\Debug\WNS Queue Tool.pdb
