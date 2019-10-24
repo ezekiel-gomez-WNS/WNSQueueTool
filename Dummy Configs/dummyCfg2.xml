@@ -1,16 +1,22 @@
 <Config>
 	<Database deadlockretrycount='5'>
-		<ConnectionString>Server=PSEA-DEV-WS11\SQLEXPRESS;Database=msdb;Trusted_Connection=True;</ConnectionString>
+		<ConnectionString>Server=PSEA-DEV-WS16\MSSQLSERVER01;database=master;Integrated Security=SSPI;persist security info=True;</ConnectionString>
 	</Database>
 	<Queries>
 		<Query0>
-			Select * FROM UnitTest_QueueDatabase1
+			Select * FROM [msdb].[dbo].[UnitTest_QueueDatabase1]
 		</Query0>
 		<Query1>
-			Select * FROM Him
+			INSERT INTO [msdb].[dbo].[UnitTest_QueueDatabase2] (col1, col2, col3)
+			VALUES ('value1', 'value2', 'value3');
 		</Query1>
 		<Query2>
-			Select * FROM Them
+			UPDATE [msdb].[dbo].[UnitTest_QueueDatabase2]
+			SET col3='Juan'
+			WHERE col1='value1';
 		</Query2>
+		<Query3>
+			DELETE FROM [msdb].[dbo].[UnitTest_QueueDatabase2];
+		</Query3>
 	</Queries>
 </Config>

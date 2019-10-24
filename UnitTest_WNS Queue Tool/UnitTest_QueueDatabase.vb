@@ -1,4 +1,5 @@
-﻿Imports System.Text
+﻿Imports System.Data.SqlClient
+Imports System.Text
 Imports Microsoft.VisualStudio.TestTools.UnitTesting
 Imports WNSQueueTool
 
@@ -20,6 +21,37 @@ Imports WNSQueueTool
 
         Assert.IsTrue(dt.Rows.Count = 5)
         Assert.IsTrue(dt.Columns.Count = 5)
+
+    End Sub
+
+    <TestMethod()> Public Sub QueueDatabase_Disconnect()
+        SUT.Disconnect()
+
+        Dim dt As DataTable
+        Try
+            dt = SUT.ExecuteQuery(mConfig.Queries(0))
+            Assert.Fail("connection not disconnected")
+        Catch e As Exception
+            Assert.AreEqual(e.Message, "Fill: SelectCommand.Connection property has not been initialized.")
+        End Try
+
+    End Sub
+
+    <TestMethod()> Public Sub ExecuteNonQuery_InsertUpdateDelete()
+        Dim rowsAffected As Long
+        SUT.Connect()
+
+        'insert
+        rowsAffected = SUT.ExecuteNonQuery(mConfig.Queries(1))
+        Assert.IsTrue(rowsAffected = 1)
+
+        'update
+        rowsAffected = SUT.ExecuteNonQuery(mConfig.Queries(2))
+        Assert.IsTrue(rowsAffected = 1)
+
+        'delete
+        rowsAffected = SUT.ExecuteNonQuery(mConfig.Queries(3))
+        Assert.IsTrue(rowsAffected = 1)
 
     End Sub
 

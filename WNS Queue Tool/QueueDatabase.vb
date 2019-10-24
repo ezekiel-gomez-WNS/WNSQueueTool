@@ -33,8 +33,27 @@ Public Class QueueDatabase
     End Sub
 
     Public Function ExecuteNonQuery(qry As String) As Long
-        Return Nothing
+        Dim flag As Boolean
+        Dim retryCounter As Long
+        Dim cmd As New SqlCommand(qry, mCon)
+        ExecuteNonQuery = 0
+        Do
+            Try
+                ExecuteNonQuery = cmd.ExecuteNonQuery()
+                flag = True
+            Catch ex As SqlException
+                If retryCounter < mDeadlockRetryCount Then
+                    retryCounter = retryCounter + 1
+                Else
+                    flag = True
+                End If
+            End Try
+        Loop While (Not flag)
+
+        cmd = Nothing
     End Function
+
+
     Public Function ExecuteQuery(qry As String) As DataTable
         Dim flag As Boolean
         Dim retryCounter As Long
