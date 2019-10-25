@@ -1,29 +1,4 @@
 ﻿Public Class GenericHelpers
-    'Public Function ConvertJSONtoDictionary(JSONString As String) As Dictionary(Of String, Object)
-    '    Try
-    '        Dim arrTxt() As String = Split(JSONString.Replace("{", "").Replace("}", ""), ",")
-    '        Dim txtCnt1 As Integer = arrTxt.Distinct().Count()
-
-    '        For i As Integer = 0 To arrTxt.Length - 1
-    '            arrTxt(i) = Left(arrTxt(i), arrTxt(i).IndexOf(":"))
-    '        Next
-
-    '        Dim txtCnt2 As Integer = arrTxt.Distinct().Count()
-
-    '        If txtCnt1 <> txtCnt2 Then
-    '            Throw New Exception("Duplicate Key Found.")
-    '        End If
-    '        If ConvertJSONtoDictionary.ContainsKey(txtCnt1) Then
-    '            Throw New Exception("Duplicate Key Found.")
-    '        End If
-
-    '        Dim dict As Object = New JavaScriptSerializer().Deserialize(Of Object)(JSONString)
-    '        Return dict
-    '    Catch e As Exception
-    '        Throw New Exception(e.Message)
-    '    End Try
-    'End Function
-
     Public Function ConvertJSONtoDictionary(JSONString As String) As Dictionary(Of String, Object)
         Try
             Dim arrTxt() As String = Split(JSONString.Replace("{", "").Replace("}", ""), ",")
