@@ -69,3 +69,32 @@ C:\Users\rpa.astrolin\Documents\GitHub\WNSQueueTool\UnitTest_WNS Queue Tool\obj\
 C:\Users\rpa.astrolin\Documents\GitHub\WNSQueueTool\UnitTest_WNS Queue Tool\obj\Debug\UnitTest_WNS Queue Tool.dll
 C:\Users\rpa.astrolin\Documents\GitHub\WNSQueueTool\UnitTest_WNS Queue Tool\obj\Debug\UnitTest_WNS Queue Tool.xml
 C:\Users\rpa.astrolin\Documents\GitHub\WNSQueueTool\UnitTest_WNS Queue Tool\obj\Debug\UnitTest_WNS Queue Tool.pdb
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\UnitTest_WNS Queue Tool\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\UnitTest_WNS Queue Tool\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\UnitTest_WNS Queue Tool\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\UnitTest_WNS Queue Tool\bin\Debug\UnitTest_WNS Queue Tool.dll
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\UnitTest_WNS Queue Tool\bin\Debug\UnitTest_WNS Queue Tool.pdb
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\UnitTest_WNS Queue Tool\bin\Debug\UnitTest_WNS Queue Tool.xml
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\UnitTest_WNS Queue Tool\bin\Debug\Google.Apis.Core.dll
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\UnitTest_WNS Queue Tool\bin\Debug\Google.Apis.dll
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\UnitTest_WNS Queue Tool\bin\Debug\Google.Apis.PlatformServices.dll
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\UnitTest_WNS Queue Tool\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\UnitTest_WNS Queue Tool\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\UnitTest_WNS Queue Tool\bin\Debug\Newtonsoft.Json.dll
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\UnitTest_WNS Queue Tool\bin\Debug\WNS Queue Tool.dll
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\UnitTest_WNS Queue Tool\bin\Debug\WNS Queue Tool.pdb
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\UnitTest_WNS Queue Tool\bin\Debug\WNS Queue Tool.xml
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\UnitTest_WNS Queue Tool\bin\Debug\Google.Apis.pdb
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\UnitTest_WNS Queue Tool\bin\Debug\Google.Apis.xml
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\UnitTest_WNS Queue Tool\bin\Debug\Google.Apis.Core.pdb
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\UnitTest_WNS Queue Tool\bin\Debug\Google.Apis.Core.xml
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\UnitTest_WNS Queue Tool\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\UnitTest_WNS Queue Tool\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\UnitTest_WNS Queue Tool\bin\Debug\Newtonsoft.Json.xml
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\UnitTest_WNS Queue Tool\obj\Debug\UnitTest_WNSQueueTool.vbprojAssemblyReference.cache
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\UnitTest_WNS Queue Tool\obj\Debug\UnitTest_WNS_Queue_Tool.Resources.resources
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\UnitTest_WNS Queue Tool\obj\Debug\UnitTest_WNSQueueTool.vbproj.GenerateResource.cache
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\UnitTest_WNS Queue Tool\obj\Debug\UnitTest_WNSQueueTool.vbproj.CopyComplete
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\UnitTest_WNS Queue Tool\obj\Debug\UnitTest_WNS Queue Tool.dll
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\UnitTest_WNS Queue Tool\obj\Debug\UnitTest_WNS Queue Tool.xml
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\UnitTest_WNS Queue Tool\obj\Debug\UnitTest_WNS Queue Tool.pdb

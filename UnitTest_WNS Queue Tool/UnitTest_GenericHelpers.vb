@@ -62,4 +62,24 @@ Imports WNSQueueTool
         SUT = Nothing
     End Sub
 
+    <TestMethod()> Public Sub DtToJSON_String()
+        SUT = New GenericHelpers
+        Dim result As String
+        Dim table As New DataTable
+
+        table.Columns.Add("Column1", GetType(String))
+        table.Columns.Add("Column2", GetType(String))
+        table.Columns.Add("Column3", GetType(String))
+        table.Columns.Add("Column4", GetType(String))
+
+        table.Rows.Add("valu= \ =e1", "valu - ' - e2", "val ñ e3", "value4")
+        table.Rows.Add("va •Æ   ╜ lue5", "value's", "valu''e7", "value8")
+        table.Rows.Add("value9", "value10", "value11", "value12")
+
+        result = SUT.ConvertDTtoJSON(table)
+        Assert.IsTrue(result.Contains("value1"))
+        MsgBox(result)
+        SUT = Nothing
+    End Sub
+
 End Class

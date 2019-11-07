@@ -37,3 +37,22 @@ C:\Users\rpa.astrolin\Documents\GitHub\WNSQueueTool\WNS Queue Tool\obj\Debug\WNS
 C:\Users\rpa.astrolin\Documents\GitHub\WNSQueueTool\WNS Queue Tool\obj\Debug\WNS Queue Tool.dll
 C:\Users\rpa.astrolin\Documents\GitHub\WNSQueueTool\WNS Queue Tool\obj\Debug\WNS Queue Tool.xml
 C:\Users\rpa.astrolin\Documents\GitHub\WNSQueueTool\WNS Queue Tool\obj\Debug\WNS Queue Tool.pdb
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\WNS Queue Tool\bin\Debug\WNS Queue Tool.dll
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\WNS Queue Tool\bin\Debug\WNS Queue Tool.pdb
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\WNS Queue Tool\bin\Debug\WNS Queue Tool.xml
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\WNS Queue Tool\bin\Debug\Google.Apis.Core.dll
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\WNS Queue Tool\bin\Debug\Google.Apis.dll
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\WNS Queue Tool\bin\Debug\Google.Apis.PlatformServices.dll
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\WNS Queue Tool\bin\Debug\Newtonsoft.Json.dll
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\WNS Queue Tool\bin\Debug\Google.Apis.pdb
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\WNS Queue Tool\bin\Debug\Google.Apis.xml
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\WNS Queue Tool\bin\Debug\Google.Apis.Core.pdb
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\WNS Queue Tool\bin\Debug\Google.Apis.Core.xml
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\WNS Queue Tool\bin\Debug\Newtonsoft.Json.xml
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\WNS Queue Tool\obj\Debug\WNSQueueTool.vbprojAssemblyReference.cache
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\WNS Queue Tool\obj\Debug\WNSQueueTool.Resources.resources
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\WNS Queue Tool\obj\Debug\WNSQueueTool.vbproj.GenerateResource.cache
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\WNS Queue Tool\obj\Debug\WNSQueueTool.vbproj.CopyComplete
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\WNS Queue Tool\obj\Debug\WNS Queue Tool.dll
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\WNS Queue Tool\obj\Debug\WNS Queue Tool.xml
+C:\Users\shashank.karn\Documents\GitHub\WNSQueueTool\WNS Queue Tool\obj\Debug\WNS Queue Tool.pdb

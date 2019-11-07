@@ -1,4 +1,5 @@
-﻿Public Class GenericHelpers
+﻿Imports System.Web.Script.Serialization
+Public Class GenericHelpers
     Public Function ConvertJSONtoDictionary(JSONString As String) As Dictionary(Of String, Object)
         Try
             Dim arrTxt() As String = Split(JSONString.Replace("{", "").Replace("}", ""), ",")
@@ -26,5 +27,11 @@
         Catch e As Exception
             Throw New Exception(e.Message)
         End Try
+    End Function
+
+    Public Function ConvertDTtoJSON(dt As DataTable) As String
+        Return New JavaScriptSerializer().Serialize(From dr As DataRow In
+        dt.Rows Select dt.Columns.Cast(Of DataColumn)().ToDictionary _
+        (Function(col) col.ColumnName, Function(col) dr(col)))
     End Function
 End Class

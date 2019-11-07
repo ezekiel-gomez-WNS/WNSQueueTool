@@ -1,0 +1,40 @@
+<Config>
+	<Database deadlockretrycount='5'>
+		<ConnectionString>Server=PSEA-DEV-WS12;database=WNSManila;Integrated Security=SSPI;persist security info=True;</ConnectionString>
+	</Database>
+	<Queries>
+		<Query0>
+			Select * FROM [WNSManila].[dbo].[Queue]
+		</Query0>
+		<Query1>
+			INSERT INTO [WNSManila].[dbo].[Queue] ([bookingUploadID], [SpecificDetails])
+			VALUES ('2', 'value3');
+		</Query1>
+		<Query2>
+			UPDATE [WNSManila].[dbo].[Queue]
+			SET [SpecificDetails] = 'Hello'
+			WHERE [bookingUploadID]='2';
+		</Query2>
+		<Query3>
+			Delete from [WNSManila].[dbo].[Queue]  where   [SpecificDetails] = 'Hello'
+		</Query3>
+		<Query4>
+			Select * FROM [WNSManila].[dbo].[QueueUploads]
+		</Query4>
+		<Query5>
+			INSERT INTO [WNSManila].[dbo].[QueueUploads] ([wnsUID],[dateTimeStamp])
+			VALUES ('u299394', SYSDATETIME());
+		</Query5>
+		<Query6>
+			UPDATE [WNSManila].[dbo].[QueueUploads]
+			SET [wnsUID] = 'u123123'
+			WHERE [wnsUID]='u299394';
+		</Query6>
+		<Query7>
+			Delete from	[WNSManila].[dbo].[QueueUploads]  where   [wnsUID] = 'u123123'
+		</Query7>
+		<Query8>
+			Delete from	[WNSManila].[dbo].[QueueUploads]  where   [wnsUID] = 'u123123'
+		</Query8>
+	</Queries>
+</Config>
