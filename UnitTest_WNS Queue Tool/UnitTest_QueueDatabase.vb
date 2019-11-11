@@ -10,6 +10,7 @@ Imports WNSQueueTool
     Private mCfgPath As String = "C:\Users\[username]\Documents\GitHub\WNSQueueTool\Dummy Configs\dummyCfg2.xml"
     Private mConfig1 As Config
     Private mCfgPath1 As String = "C:\Users\[username]\Documents\GitHub\WNSQueueTool\Dummy Configs\dummyCfg3.xml"
+    Public TestTime As String = DateAndTime.Now
 
     Public Sub New()
         mCfgPath = mCfgPath.Replace("[username]", Environment.UserName)
@@ -23,15 +24,15 @@ Imports WNSQueueTool
         Dim rowsAffected As Long
         SUT1.Connect()
         'insert
-        rowsAffected = SUT1.ExecuteNonQuery(mConfig1.Queries(1))
+        rowsAffected = SUT1.ExecuteNonQuery(mConfig1.Queries(1).Replace("[UserName]", "'u321936'"))
         Assert.IsTrue(rowsAffected = 1)
 
         'update
-        rowsAffected = SUT1.ExecuteNonQuery(mConfig1.Queries(2))
+        rowsAffected = SUT1.ExecuteNonQuery(mConfig1.Queries(2).Replace("[UserName]", "'u321936'"))
         Assert.IsTrue(rowsAffected = 1)
 
         'delete
-        rowsAffected = SUT1.ExecuteNonQuery(mConfig1.Queries(3))
+        rowsAffected = SUT1.ExecuteNonQuery(mConfig1.Queries(3).Replace("[UserName]", "'u321936'"))
         Assert.IsTrue(rowsAffected = 1)
         SUT1.Disconnect()
 
@@ -40,11 +41,11 @@ Imports WNSQueueTool
         Dim rowsAffected As Long
         SUT1.Connect()
         'insert
-        rowsAffected = SUT1.ExecuteNonQuery(mConfig1.Queries(5))
+        rowsAffected = SUT1.ExecuteNonQuery(mConfig1.Queries(5).Replace("[UserName]", "'u321936'"))
         Assert.IsTrue(rowsAffected = 1)
 
         'update
-        rowsAffected = SUT1.ExecuteNonQuery(mConfig1.Queries(6))
+        rowsAffected = SUT1.ExecuteNonQuery(mConfig1.Queries(6).Replace("[UserName]", "'u321936'"))
         Assert.IsTrue(rowsAffected = 1)
 
         'delete
