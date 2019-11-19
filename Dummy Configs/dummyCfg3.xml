@@ -33,5 +33,30 @@
 		<Query8 desc = "Assign Queue Item">
 			Delete from	[WNSManila].[dbo].[QueueUploads]  where   [wnsUID] = 'u123123'
 		</Query8>
+		<Query9 desc = "Insert TransactionStatuses table">
+			insert into [WNSManila].[dbo].[TransactionStatuses] values ( '[StatusCode]', '[StatusDesc]')
+		</Query9>
+		<Query10 desc = "Update TransactionStatuses table StatusCode column">
+		update [WNSManila].[dbo].[TransactionStatuses] SET StatusCode = '[Replacer]' WHERE StatusCode='[StatusCode]';
+		</Query10>
+		<Query11 desc = "Update TransactionStatuses table Description column">
+		update [WNSManila].[dbo].[TransactionStatuses] SET Description='[Replacer]' WHERE  Description = '[StatusDesc]';
+		</Query11>
+		<Query12 desc = "Delete TransactionStatuses table">
+		delete [WNSManila].[dbo].[TransactionStatuses] where StatusCode= '[StatusCode]'
+		</Query12>
+		<Query13 desc = "Insert Transaction table w remark">
+		insert into [WNSManila].[dbo].[Transactions] (TransactionID,AssignToUID,AssignByUID,AssigneddateTimeStamp,startTime,StartStatusCode,EndStatusCode,Remarks) 
+		values(concat('[ComputerName]',concat(' - ' ,getdate())),'[AssignToUID]','[AssignByUID]',SYSDATETIME(),SYSDATETIME(),'[StartStatusCode]'
+		,'[EndStatusCode]','[Remarks]')
+		</Query13>
+		<Query14 desc = "Update Transaction table">
+		UPDATE [WNSManila].[dbo].[Transactions] SET AssignToUID = '[AssignToUID]', AssigneddateTimeStamp = 
+		SYSDATETIME(), StartStatusCode = '[StartStatusCode]', EndStatusCode = '[EndStatusCode]', Remarks='[Remarks]'
+		WHERE Remarks = 'Test This'
+		</Query14>
+		<Query15 desc = "Delete Transaction table w remark">
+		delete [WNSManila].[dbo].[Transactions] where Remarks = 'DeleteThis'
+		</Query15>
 	</Queries>
 </Config>
