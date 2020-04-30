@@ -2,7 +2,7 @@
 Public Class GenericHelpers
     Public Function ConvertJSONtoDictionary(JSONString As String) As Dictionary(Of String, Object)
         Try
-            Dim arrTxt() As String = Split(JSONString.Replace("{", "").Replace("}", ""), ",")
+            Dim arrTxt() As String = Split(JSONString.Replace("{", "").Replace("}", "").Replace("[", "").Replace("]", ""), ",")
             Dim keyDict As String
             Dim valueDict As String
 

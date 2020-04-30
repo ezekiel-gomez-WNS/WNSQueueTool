@@ -4,12 +4,12 @@ Imports WNSQueueTool
 
 <TestClass()> Public Class UnitTest_GenericHelpers
     Dim SUT As GenericHelpers
-    Dim jsonTxt = "{'Column1':'value1','Column2':'value2','Column3':'value3'}"
+    Dim jsonTxt = My.Computer.FileSystem.ReadAllText("C:\Users\rpa.astrolin\Desktop\qToolTest.txt")
 
     <TestMethod()> Public Sub JSONtoDICT_ReturnsValue1()
         SUT = New GenericHelpers
         Dim dict = SUT.ConvertJSONtoDictionary(jsonTxt)
-        Assert.AreEqual("value1", dict("Column1"))
+        Assert.AreEqual("HKGVQ9116800", dict("Booking_No"))
         SUT = Nothing
     End Sub
 
@@ -66,19 +66,32 @@ Imports WNSQueueTool
         SUT = New GenericHelpers
         Dim result As String
         Dim table As New DataTable
+        Dim table1 As New DataTable
 
         table.Columns.Add("Column1", GetType(String))
         table.Columns.Add("Column2", GetType(String))
         table.Columns.Add("Column3", GetType(String))
         table.Columns.Add("Column4", GetType(String))
 
-        table.Rows.Add("valu= \ =e1", "valu - ' - e2", "val ñ e3", "value4")
+        table.Rows.Add("", "valu - ' - e2", "val ñ e3", "value4")
         table.Rows.Add("va •Æ   ╜ lue5", "value's", "valu''e7", "value8")
         table.Rows.Add("value9", "value10", "value11", "value12")
 
-        result = SUT.ConvertDTtoJSON(table)
-        Assert.IsTrue(result.Contains("value1"))
-        MsgBox(result)
+        'new table
+        table1.Columns.Add("Column1", GetType(String))
+        table1.Columns.Add("Column2", GetType(String))
+        table1.Columns.Add("Column3", GetType(String))
+        table1.Columns.Add("Column4", GetType(String))
+
+        'per row test schema
+        For Each row As DataRow In table.Rows
+            table1.ImportRow(row)
+            result = SUT.ConvertDTtoJSON(table1)
+            Assert.IsTrue(result.Contains("valu"))
+            MsgBox(result)
+            table1.Clear()
+        Next row
+
         SUT = Nothing
     End Sub
 
